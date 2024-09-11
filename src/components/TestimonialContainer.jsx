@@ -1,5 +1,5 @@
 import Testimonial from "./Testimonial"
-import { graduates } from "../constants"
+import { graduates } from "../constants/testimonialsData.js"
 
 const TestimonialContainer = () => {
   return (
