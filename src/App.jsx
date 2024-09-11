@@ -1,5 +1,9 @@
+import TestimonialContainer from "./components/TestimonialContainer";
+
 const App = () => {
-  return <div className="">set up</div>;
+  return <div className="min-h-screen bg-brand-primary">
+    <TestimonialContainer />
+  </div>;
 };
 
 export default App;
