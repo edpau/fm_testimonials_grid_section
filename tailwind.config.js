@@ -27,9 +27,8 @@ export default {
       fontFamily: {
         card: ["Barlow Semi Condensed", "sans-serif"],
       },
-      screen: {
-        mobile: "375px",
-        desktop: "1440px",
+      screens: {
+        sm: "970px",
       },
     },
   },
