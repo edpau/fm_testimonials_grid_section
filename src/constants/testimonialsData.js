@@ -24,6 +24,7 @@ export const graduates = [
     bgPattern: bgPatternQuotation,
     textColorPrimary: "text-light-primary",
     blockQuotePaddingMarginTopExtra: true,
+    blockQuotePaddingMarginTopExtraDesk: false,
     blockQuotePadding: "pr-4",
   },
 
@@ -41,6 +42,7 @@ export const graduates = [
     bgPattern: null,
     textColorPrimary: "text-light-primary",
     blockQuotePaddingMarginTopExtra: false,
+    blockQuotePaddingMarginTopExtraDesk: false,
     blockQuotePadding: null,
   },
   {
@@ -57,6 +59,7 @@ export const graduates = [
     bgPattern: null,
     textColorPrimary: "text-dark-primary",
     blockQuotePaddingMarginTopExtra: false,
+    blockQuotePaddingMarginTopExtraDesk: true,
     blockQuotePadding: null,
   },
   {
@@ -75,6 +78,7 @@ export const graduates = [
     bgPattern: null,
     textColorPrimary: "text-light-primary",
     blockQuotePaddingMarginTopExtra: false,
+    blockQuotePaddingMarginTopExtraDesk: true,
     blockQuotePadding: null,
   },
   {
@@ -97,6 +101,7 @@ export const graduates = [
     bgPattern: null,
     textColorPrimary: "text-dark-primary",
     blockQuotePaddingMarginTopExtra: false,
+    blockQuotePaddingMarginTopExtraDesk: true,
     blockQuotePadding: null,
   },
 ];
