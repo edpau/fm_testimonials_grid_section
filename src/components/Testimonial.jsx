@@ -1,4 +1,4 @@
-const Testimonial = ({ graduate }) => {
+const Testimonial = ({ graduate, gridClasses }) => {
   const {
     id,
     image,
@@ -12,14 +12,18 @@ const Testimonial = ({ graduate }) => {
     bgPattern,
     textColorPrimary,
     blockQuotePaddingMarginTopExtra,
+    blockQuotePaddingMarginTopExtraDesk,
     blockQuotePadding,
   } = graduate;
   return (
     <article
-    className={`mx-auto max-w-[87%] px-8 pb-8 pt-[1.75rem] ${bgColor} shadow-testimonial rounded-lg`}
-    style={{ backgroundImage: bgPattern?`url(${bgPattern})`: "none", 
-      backgroundRepeat: bgPattern? 'no-repeat': "initial", 
-      backgroundPosition: bgPattern? 'right 25px top' : "initial" }}
+      className={`px-8 pb-8 pt-[1.75rem] ${bgColor} rounded-lg shadow-testimonial ${gridClasses} ${bgPattern ? "bg-[position:right_24px_top] sm:bg-[right_80px_top]" : ""}`}
+      style={{
+        ...(bgPattern && {
+          backgroundImage: `url(${bgPattern})`,
+          backgroundRepeat: "no-repeat",
+        }),
+      }}
     >
       <figure className="flex gap-[1.0625rem]">
         <img
@@ -49,7 +53,7 @@ const Testimonial = ({ graduate }) => {
           </strong>
         </p>
         <p
-          className={`${textColorPrimary} ${blockQuotePaddingMarginTopExtra ? "mt-10" : "mt-4"} text-[0.8125rem] text-opacity-70 ${blockQuotePadding ?? ""} leading-snug`}
+          className={`${textColorPrimary} ${blockQuotePaddingMarginTopExtra ? "mt-10" : "mt-4"} text-[0.8125rem] font-normal text-opacity-70 ${blockQuotePadding ?? ""} leading-snug sm:mt-4 sm:pr-0 ${blockQuotePaddingMarginTopExtraDesk ? "sm:mt-6" : "sm:mt-4"}`}
         >
           {personalExperienceQuote}
         </p>
