@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/fm_testimonials_grid_section/',
+  assetsInclude: ['**/*.svg'],
 })
