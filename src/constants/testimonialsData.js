@@ -4,7 +4,8 @@ import jeanetteHarmonImg from "../assets/images/image-jeanette.jpg";
 import patrickAbramsImg from "../assets/images/image-patrick.jpg";
 import kiraWhittleImg from "../assets/images/image-kira.jpg";
 // import bgPatternQuotation from "../assets/images/bg-pattern-quotation.svg";
-import bgPatternQuotation from '/bg-pattern-quotation.svg';
+//import bgPatternQuotation from '/bg-pattern-quotation.svg';
+import bgPatternQuotation from "/src/assets/images/bg-pattern-quotation.svg";
 
 export const graduates = [
   {
