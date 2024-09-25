@@ -32,11 +32,11 @@ const Testimonial = ({ graduate, gridClasses }) => {
           alt={imageAlt}
         />
         <figcaption>
-          <h3
+          <h2
             className={`${textColorPrimary} text-[0.8125rem] leading-[0.8125rem]`}
           >
             {name}
-          </h3>
+          </h2>
           <p
             className={`${textColorPrimary} mt-1 text-[0.6875rem] leading-[0.6875rem] text-opacity-50`}
           >
